@@ -12,7 +12,7 @@ diller=["TR","DE","IT","KR","FR","NL","DK"]
 
 guncelle=st.sidebar.button("Haberi Güncelle")
 
-if güncelle:
+if guncelle:
     for dil in diller:
         trendgetir(dil)
     
